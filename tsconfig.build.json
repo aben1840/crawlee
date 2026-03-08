@@ -4,6 +4,8 @@
 		"target": "ES2020",
 		"lib": ["ESNext", "DOM", "ES2020"],
 		"baseUrl": ".",
+		"sourceMap": true,
+		"inlineSources": true,
 		"allowJs": true,
 		"skipLibCheck": true,
 		"resolveJsonModule": false,
