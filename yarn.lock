@@ -784,7 +784,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@crawlee/basic@npm:3.16.0, @crawlee/basic@workspace:*, @crawlee/basic@workspace:packages/basic-crawler":
+"@crawlee/basic@npm:3.16.0, @crawlee/basic@workspace:packages/basic-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/basic@workspace:packages/basic-crawler"
   dependencies:
@@ -804,7 +804,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/browser-pool@npm:3.16.0, @crawlee/browser-pool@workspace:*, @crawlee/browser-pool@workspace:packages/browser-pool":
+"@crawlee/browser-pool@npm:3.16.0, @crawlee/browser-pool@workspace:packages/browser-pool":
   version: 0.0.0-use.local
   resolution: "@crawlee/browser-pool@workspace:packages/browser-pool"
   dependencies:
@@ -833,7 +833,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/browser@npm:3.16.0, @crawlee/browser@workspace:*, @crawlee/browser@workspace:packages/browser-crawler":
+"@crawlee/browser@npm:3.16.0, @crawlee/browser@workspace:packages/browser-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/browser@workspace:packages/browser-crawler"
   dependencies:
@@ -856,7 +856,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/cheerio@workspace:*, @crawlee/cheerio@workspace:packages/cheerio-crawler":
+"@crawlee/cheerio@npm:3.16.0, @crawlee/cheerio@workspace:packages/cheerio-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/cheerio@workspace:packages/cheerio-crawler"
   dependencies:
@@ -869,14 +869,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/cli@workspace:*, @crawlee/cli@workspace:packages/cli":
+"@crawlee/cli@npm:3.16.0, @crawlee/cli@workspace:packages/cli":
   version: 0.0.0-use.local
   resolution: "@crawlee/cli@workspace:packages/cli"
   dependencies:
     "@crawlee/templates": "npm:3.16.0"
     ansi-colors: "npm:^4.1.3"
     fs-extra: "npm:^11.0.0"
-    inquirer: "npm:^8.2.4"
+    inquirer: "npm:^9.3.8"
     tslib: "npm:^2.4.0"
     yargonaut: "npm:^1.1.4"
     yargs: "npm:^17.5.1"
@@ -885,7 +885,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/core@npm:3.16.0, @crawlee/core@npm:^3.14.1, @crawlee/core@npm:^3.16.0, @crawlee/core@workspace:*, @crawlee/core@workspace:packages/core":
+"@crawlee/core@npm:3.16.0, @crawlee/core@npm:^3.14.1, @crawlee/core@npm:^3.16.0, @crawlee/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@crawlee/core@workspace:packages/core"
   dependencies:
@@ -914,7 +914,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/http@npm:3.16.0, @crawlee/http@workspace:*, @crawlee/http@workspace:packages/http-crawler":
+"@crawlee/http@npm:3.16.0, @crawlee/http@workspace:packages/http-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/http@workspace:packages/http-crawler"
   dependencies:
@@ -948,7 +948,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/jsdom@workspace:*, @crawlee/jsdom@workspace:packages/jsdom-crawler":
+"@crawlee/jsdom@npm:3.16.0, @crawlee/jsdom@workspace:packages/jsdom-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/jsdom@workspace:packages/jsdom-crawler"
   dependencies:
@@ -965,7 +965,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/linkedom@workspace:*, @crawlee/linkedom@workspace:packages/linkedom-crawler":
+"@crawlee/linkedom@npm:3.16.0, @crawlee/linkedom@workspace:packages/linkedom-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/linkedom@workspace:packages/linkedom-crawler"
   dependencies:
@@ -997,7 +997,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/playwright@workspace:*, @crawlee/playwright@workspace:packages/playwright-crawler":
+"@crawlee/playwright@npm:3.16.0, @crawlee/playwright@workspace:packages/playwright-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/playwright@workspace:packages/playwright-crawler"
   dependencies:
@@ -1028,7 +1028,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/puppeteer@workspace:*, @crawlee/puppeteer@workspace:packages/puppeteer-crawler":
+"@crawlee/puppeteer@npm:3.16.0, @crawlee/puppeteer@workspace:packages/puppeteer-crawler":
   version: 0.0.0-use.local
   resolution: "@crawlee/puppeteer@workspace:packages/puppeteer-crawler"
   dependencies:
@@ -1171,7 +1171,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@crawlee/utils@npm:3.16.0, @crawlee/utils@npm:^3.14.1, @crawlee/utils@workspace:*, @crawlee/utils@workspace:packages/utils":
+"@crawlee/utils@npm:3.16.0, @crawlee/utils@npm:^3.14.1, @crawlee/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@crawlee/utils@workspace:packages/utils"
   dependencies:
@@ -1722,7 +1722,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/external-editor@npm:^1.0.0, @inquirer/external-editor@npm:^1.0.2, @inquirer/external-editor@npm:^1.0.3":
+"@inquirer/external-editor@npm:^1.0.2, @inquirer/external-editor@npm:^1.0.3":
   version: 1.0.3
   resolution: "@inquirer/external-editor@npm:1.0.3"
   dependencies:
@@ -4079,7 +4079,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-escapes@npm:^4.2.1, ansi-escapes@npm:^4.3.2":
+"ansi-escapes@npm:^4.3.2":
   version: 4.3.2
   resolution: "ansi-escapes@npm:4.3.2"
   dependencies:
@@ -5041,7 +5041,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1, chalk@npm:^4.1.2":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -5214,13 +5214,6 @@ __metadata:
     slice-ansi: "npm:^7.1.0"
     string-width: "npm:^8.0.0"
   checksum: 10c0/3842920829a62f3e041ce39199050c42706c3c9c756a4efc8b86d464e102d1fa031d8b1b9b2e3bb36e1017c763558275472d031bdc884c1eff22a2f20e4f6b0a
-  languageName: node
-  linkType: hard
-
-"cli-width@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "cli-width@npm:3.0.0"
-  checksum: 10c0/125a62810e59a2564268c80fdff56c23159a7690c003e34aeb2e68497dccff26911998ff49c33916fcfdf71e824322cc3953e3f7b48b27267c7a062c81348a9a
   languageName: node
   linkType: hard
 
@@ -5644,18 +5637,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "crawlee@workspace:packages/crawlee"
   dependencies:
-    "@crawlee/basic": "workspace:*"
-    "@crawlee/browser": "workspace:*"
-    "@crawlee/browser-pool": "workspace:*"
-    "@crawlee/cheerio": "workspace:*"
-    "@crawlee/cli": "workspace:*"
-    "@crawlee/core": "workspace:*"
-    "@crawlee/http": "workspace:*"
-    "@crawlee/jsdom": "workspace:*"
-    "@crawlee/linkedom": "workspace:*"
-    "@crawlee/playwright": "workspace:*"
-    "@crawlee/puppeteer": "workspace:*"
-    "@crawlee/utils": "workspace:*"
+    "@crawlee/basic": "npm:3.16.0"
+    "@crawlee/browser": "npm:3.16.0"
+    "@crawlee/browser-pool": "npm:3.16.0"
+    "@crawlee/cheerio": "npm:3.16.0"
+    "@crawlee/cli": "npm:3.16.0"
+    "@crawlee/core": "npm:3.16.0"
+    "@crawlee/http": "npm:3.16.0"
+    "@crawlee/jsdom": "npm:3.16.0"
+    "@crawlee/linkedom": "npm:3.16.0"
+    "@crawlee/playwright": "npm:3.16.0"
+    "@crawlee/puppeteer": "npm:3.16.0"
+    "@crawlee/utils": "npm:3.16.0"
     import-local: "npm:^3.1.0"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -7201,7 +7194,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figures@npm:3.2.0, figures@npm:^3.0.0":
+"figures@npm:3.2.0":
   version: 3.2.0
   resolution: "figures@npm:3.2.0"
   dependencies:
@@ -8696,30 +8689,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:^8.2.4":
-  version: 8.2.7
-  resolution: "inquirer@npm:8.2.7"
-  dependencies:
-    "@inquirer/external-editor": "npm:^1.0.0"
-    ansi-escapes: "npm:^4.2.1"
-    chalk: "npm:^4.1.1"
-    cli-cursor: "npm:^3.1.0"
-    cli-width: "npm:^3.0.0"
-    figures: "npm:^3.0.0"
-    lodash: "npm:^4.17.21"
-    mute-stream: "npm:0.0.8"
-    ora: "npm:^5.4.1"
-    run-async: "npm:^2.4.0"
-    rxjs: "npm:^7.5.5"
-    string-width: "npm:^4.1.0"
-    strip-ansi: "npm:^6.0.0"
-    through: "npm:^2.3.6"
-    wrap-ansi: "npm:^6.0.1"
-  checksum: 10c0/75aa594231769d292102615da3199320359bfb566e96dae0f89a5773a18e21c676709d9f5a9fb1372f7d2cf25c551a4efe53691ff436d941f95336931777c15d
-  languageName: node
-  linkType: hard
-
-"inquirer@npm:^9.0.0":
+"inquirer@npm:^9.0.0, inquirer@npm:^9.3.8":
   version: 9.3.8
   resolution: "inquirer@npm:9.3.8"
   dependencies:
@@ -10663,13 +10633,6 @@ __metadata:
   bin:
     mustache: bin/mustache
   checksum: 10c0/1f8197e8a19e63645a786581d58c41df7853da26702dbc005193e2437c98ca49b255345c173d50c08fe4b4dbb363e53cb655ecc570791f8deb09887248dd34a2
-  languageName: node
-  linkType: hard
-
-"mute-stream@npm:0.0.8":
-  version: 0.0.8
-  resolution: "mute-stream@npm:0.0.8"
-  checksum: 10c0/18d06d92e5d6d45e2b63c0e1b8f25376af71748ac36f53c059baa8b76ffac31c5ab225480494e7d35d30215ecdb18fed26ec23cafcd2f7733f2f14406bcd19e2
   languageName: node
   linkType: hard
 
@@ -12944,13 +12907,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"run-async@npm:^2.4.0":
-  version: 2.4.1
-  resolution: "run-async@npm:2.4.1"
-  checksum: 10c0/35a68c8f1d9664f6c7c2e153877ca1d6e4f886e5ca067c25cdd895a6891ff3a1466ee07c63d6a9be306e9619ff7d509494e6d9c129516a36b9fd82263d579ee1
-  languageName: node
-  linkType: hard
-
 "run-async@npm:^3.0.0":
   version: 3.0.0
   resolution: "run-async@npm:3.0.0"
@@ -12974,7 +12930,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^7.2.0, rxjs@npm:^7.5.5, rxjs@npm:^7.8.1, rxjs@npm:^7.8.2":
+"rxjs@npm:^7.2.0, rxjs@npm:^7.8.1, rxjs@npm:^7.8.2":
   version: 7.8.2
   resolution: "rxjs@npm:7.8.2"
   dependencies:
@@ -13974,7 +13930,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"through@npm:2, through@npm:2.3.8, through@npm:>=2.2.7 <3, through@npm:^2.3.6, through@npm:^2.3.8, through@npm:~2.3, through@npm:~2.3.1":
+"through@npm:2, through@npm:2.3.8, through@npm:>=2.2.7 <3, through@npm:^2.3.8, through@npm:~2.3, through@npm:~2.3.1":
   version: 2.3.8
   resolution: "through@npm:2.3.8"
   checksum: 10c0/4b09f3774099de0d4df26d95c5821a62faee32c7e96fb1f4ebd54a2d7c11c57fe88b0a0d49cf375de5fee5ae6bf4eb56dbbf29d07366864e2ee805349970d3cc
@@ -15081,7 +15037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrap-ansi@npm:^6.0.1, wrap-ansi@npm:^6.2.0":
+"wrap-ansi@npm:^6.2.0":
   version: 6.2.0
   resolution: "wrap-ansi@npm:6.2.0"
   dependencies:
